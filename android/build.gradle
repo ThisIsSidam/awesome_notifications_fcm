@@ -16,7 +16,7 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
-//        maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -60,7 +60,7 @@ android {
 //        implementation project(':awn_core')
         implementation 'me.carda:AndroidAwnCore:0.10.0'
 //        implementation project(':awn_fcm_core')
-        implementation 'com.github.ThisIsSidam:AndroidAwnFcmCore:main-SNAPSHOT'
+        implementation 'com.github.ThisIsSidam:AndroidAwnFcmCore:main-aeb6e644bb-1'
 
         compileOnly project(':awesome_notifications')
 
@@ -89,9 +89,9 @@ android {
     testOptions {
         unitTests.all {
             testLogging {
-               events "passed", "skipped", "failed", "standardOut", "standardError"
-               outputs.upToDateWhen {false}
-               showStandardStreams = true
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+                outputs.upToDateWhen {false}
+                showStandardStreams = true
             }
         }
     }
