@@ -16,6 +16,7 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -59,7 +60,7 @@ android {
 //        implementation project(':awn_core')
         implementation 'me.carda:AndroidAwnCore:0.10.0'
 //        implementation project(':awn_fcm_core')
-        implementation 'me.carda:AndroidAwnFcmCore:0.10.0'
+        implementation 'com.github.ThisIsSidam:AndroidAwnFcmCore:main-SNAPSHOT'
 
         compileOnly project(':awesome_notifications')
 
