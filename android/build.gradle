@@ -60,7 +60,7 @@ android {
 //        implementation project(':awn_core')
         implementation 'me.carda:AndroidAwnCore:0.10.0'
 //        implementation project(':awn_fcm_core')
-        implementation 'com.github.ThisIsSidam:AndroidAwnFcmCore:main-aeb6e644bb-1'
+        implementation 'com.github.ThisIsSidam:AndroidAwnFcmCore:main-SNAPSHOT'
 
         compileOnly project(':awesome_notifications')
 
